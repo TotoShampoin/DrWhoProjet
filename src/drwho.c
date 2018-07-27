@@ -6,8 +6,7 @@
 #include "data/william.h"
 
 
-void blit_picture(unsigned char x, unsigned char y, unsigned char width,unsigned char height, unsigned char data[])
-{
+void blit_picture(unsigned char x, unsigned char y, unsigned char width,unsigned char height, unsigned char data[]) {
 	unsigned char posx,posy;
 	unsigned int i;
 	posx=x;
@@ -26,10 +25,7 @@ void blit_picture(unsigned char x, unsigned char y, unsigned char width,unsigned
 /* Driver stuff */
 
 
-int main ()
-{
-
-
+int main () {
 
 tgi_install (tgi_static_stddrv);
 
